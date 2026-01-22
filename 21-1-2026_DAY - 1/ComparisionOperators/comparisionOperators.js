@@ -1,0 +1,15 @@
+console.log("        Comparison Operators in JavaScript")
+console.log("Comparison operators are used to compare two values\n")        
+console.log("List of Comparison Operators: ==, ===, !=, !==, >, <, >=, <=\n")
+let a = 27
+let b = 10
+console.log("a = " + a)
+console.log("b = " + b + "\n")
+console.log(a+" == " + b + ": " + (a == b))
+console.log(a+" === " + b + ": " + (a === b))
+console.log(a+" != " + b + ": " + (a != b))
+console.log(a+" !== " + b + ": " + (a !== b))
+console.log(a+" > " + b + ": " + (a > b))
+console.log(a+" < " + b + ": " + (a < b))
+console.log(a+" >= " + b + ": " + (a >= b))
+console.log(a+" <= " + b + ": " + (a <= b))
