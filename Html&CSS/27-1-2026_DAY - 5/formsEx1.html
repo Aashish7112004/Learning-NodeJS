@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+
+    <form class="main" action="store">  
+        <div id="top">
+            <img src="image.png" alt="" id="img" >
+        </div>
+
+        <div id="container">
+            <h1 style="font-size: 40px;">Event Registration</h1>
+            <p style="font-size: 20px;">Fill the form and get regesterd</p> 
+        </div>
+     
+        <div  for="Fullname" id="container">
+            <h3 style="font-size: 30px;"> Full Name</h3>
+            <input style="font-size: 15px;" name="Fullname" type="text" placeholder=" Enter fullname" id="input" required >
+        </div>
+
+        <div id="container">
+            <h3 style="font-size: 30px;">Enter Roll No</h3>
+            <input style="font-size: 15px;" name="roll" type="text" placeholder=" Enter Rollno"  id="input" required >
+        </div>
+
+        <div id="container">
+
+            <h3 style="font-size: 30px;">Email Adress</h3>
+            <input style="font-size: 15px;" name="email" type="text" placeholder=" example@gmail.com"  id="input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required >
+            
+        </div>
+
+        <div id="container">
+            <h3 style="font-size: 30px;">Phone Number</h3>
+            <input style="font-size: 15px;" name="phone" type="tel" placeholder=" Phone Number"  id="input" minlength="10" maxlength="10" required >
+            
+        </div>
+
+        <div id="container">
+            <h3 style="font-size: 30px;">Gender</h3>
+            <input  name="gender" type="radio" value="Male" size="100px" > Male </input>
+            <input name="gender" type="radio" value="Female" size="100px" > Female </input>
+
+        </div>
+
+        <div id="container">
+
+            <h3 style="font-size: 30px;">Year</h3>
+            <select name="year" id="input" required>
+                <option value=""> Select</option>
+                <option value="1">1 Year</option>
+                <option value="2">2 year</option>
+                <option value="3">3 Year</option>
+                <option value="4">4 Year</option>
+            </select>
+
+            <h3 style="font-size: 30px;">Branch</h3>
+            <select name="branch" id="input" required >
+                <option value=""> Select</option>
+                <option value="cse">CSE</option>
+                <option value="ece">ECE</option>
+                <option value="mech">MECH</option>
+                <option value="civil">CIVIL</option>
+            </select>
+
+            <h3 style="font-size: 30px;">Section</h3>
+            <select name="section" id="input" required>
+                <option value=""> Select</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+            </select>
+
+        </div>
+
+        <div id="container">
+            <h3 style="font-size: 30px;">Upload Your Collage ID Pic</h3>
+            <input type="file" id="input" required >
+        </div>
+
+        <div id="container">
+            <h3 style="font-size: 30px;">Why You Want To Come To Enter This Event</h3>
+            <textarea style="font-size: 15px;" id="input1" placeholder="Enter your reason here" rows="10" cols="100" ></textarea>
+        </div>
+
+        <div id="container">
+            <h1 style="font-size: 30px;">Submit your Details</h3>
+            <button id="btn" >Submit</button>
+            <button type= "reset" id="btn1" >clear</button>
+
+        </div>
+
+    </form>
+    
+</body>
+</html>
