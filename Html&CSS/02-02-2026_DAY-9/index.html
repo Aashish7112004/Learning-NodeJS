@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="printUsers()">
+
+    <div class="header">
+
+        <form onsubmit="addUser(event)" class="form" >
+
+            <div>   
+                <h1  style="margin-top: 0px ; width: 100%; text-align: center;  ">Add User</h1>
+            </div>
+
+            <div>
+                <span class="tags">Name</span>
+                <input required name="name" class="inputTag" id="name" type="text" placeholder="Enter name" >
+            </div>
+
+            <div>
+                <span class="tags">Gamil</span>
+                <input required name="gamil" class="inputTag" id="gmail" type="gmail" placeholder="Gmail">
+            </div>
+
+            <div>
+                <span class="tags">Number</span>
+                <input required name="number" class="inputTag" id="number" type="tel" placeholder="Number">
+            </div>
+
+            <div class="submit">
+                <button type="submit" value="addUser" class="button">Add</button>
+            </div>
+
+        </form>
+
+        <section class="table">
+
+            <table class="mainTable">
+                <head>
+                    <tr>
+                        <th style="padding: 20px; border: 1px solid gray ; width:150px; text-align: left; border-radius: 10px; " >User ID</th>
+                        <th style="padding: 20px; border: 1px solid gray ; width:150px; text-align: left; border-radius: 10px; ">Name</th>
+                        <th style="padding: 20px; border: 1px solid gray ; width:150px; text-align: left; border-radius: 10px; ">Gmail</th>
+                        <th style="padding: 20px; border: 1px solid gray ; width:150px; text-align: left; border-radius: 10px; ">Number</th>
+                        <th style="padding: 20px; border: 1px solid gray ; width:150px; text-align: left; border-radius: 10px; ">Delete</th>
+                        <th style="padding: 20px; border: 1px solid gray ; width:150px; text-align: left; border-radius: 10px; ">Edit</th>
+                        
+                    </tr>
+                </head>
+                <tbody id="data">
+
+                </tbody>
+            </table>
+                
+        </section>
+
+    </div>
+
+
+
+</body>
+</html>
