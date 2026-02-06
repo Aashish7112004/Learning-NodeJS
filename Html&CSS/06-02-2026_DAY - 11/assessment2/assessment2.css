@@ -1,0 +1,40 @@
+.mainImage{
+    height: 400px;
+    width: 700px;
+    background-image: url(image.png);
+    background-size: cover;
+    /* border: 2px solid; */
+    border-radius: 15px;
+    position: relative;
+    top: 120px;
+    left:400px
+}
+
+.mainImage:hover{
+
+    box-shadow: 0px 0px 4px 2px darkgray;
+
+}
+
+.imageContent{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* border: 2px solid; */
+    align-items: center;
+    position: relative;
+    top: 100px;
+
+}
+
+.button{
+    padding: 15px;
+    border-radius: 15px;
+    border:none;
+    cursor: pointer
+}
+
+.button:hover{
+    box-shadow: 0px 0px 4px 1px rgb(118, 114, 114);
+    scale: 1.02;
+}

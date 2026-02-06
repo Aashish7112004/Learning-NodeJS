@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    height: 500px;
+    width: 400px;
+    /* border: solid; */
+    position: relative;
+    left: 200px;
+    top: 100px;
+    border-radius: 25px;
+
+}
+
+.main:hover{
+
+    box-shadow: 0px 0px 4px 2px gray;
+    scale: 1.02;
+    cursor: pointer;
+    transition: 200ms;
+
+
+
+}
+
+.mainImage{
+    height: 500px;
+    width: 100%;
+    background-image: url(image\ copy.png);
+    background-size: cover;
+    border-radius: 25px;
+
+    /* border: solid; */
+
+}
+ 
+.mainText{
+    /* border: solid; */
+    position: absolute;
+    bottom: 2px;
+    left: 15px;
+
+}

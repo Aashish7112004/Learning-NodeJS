@@ -1,0 +1,88 @@
+.mainBox{
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    height: fit-content;
+    padding: 0px;
+    width: fit-content;
+    position: relative;
+    left: 500px;
+    top: 50px;
+}
+
+.mainBox:hover{
+    box-shadow: 0px 0px 4px 2px lightgray;
+    scale: 1.01;
+
+}
+
+.header{
+    padding : 20px
+}
+
+.mainImage{
+    height: 300px;
+    width: 400px;
+    background: url(image.png);
+    border-radius: 15px;
+    position: relative;
+}
+
+.topPart{
+
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(35, 33, 33, 0.05);
+    /* border: solid; */
+    border-radius: 10px;
+    padding:10px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+}
+
+
+.imageBottomPart{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+    /* border: 2px solid black; */
+
+}
+
+.imageBottomLeftPart{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    background-color: rgb(78, 44, 248);
+    /* border: 2px solid black; */
+
+    color: white;
+}
+
+.imageBottomRightPart{
+
+    height: fit-content;
+    width: fit-content;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+
+}
+
+
+.footer{
+    width: fit;
+    display: flex;
+    padding: 20px;
+    margin: 0px;
+    align-items: end;
+    border-top: 1px solid lightgray;
+    /* border: 2px solid black; */
+
+}
